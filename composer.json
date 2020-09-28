@@ -1,0 +1,47 @@
+{
+    "name": "soyhuce/laravel-factories-extended",
+    "description": "Extensions for Laravel model factories",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "factory"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bastien Philippe",
+            "email": "bastien.philippe@soyhuce.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "illuminate/database": "^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.17",
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Soyhuce\\LaravelFactoriesExtended\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Soyhuce\\LaravelFactoriesExtended\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "cs": "vendor/bin/php-cs-fixer fix",
+        "test": "vendor/bin/phpunit"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
