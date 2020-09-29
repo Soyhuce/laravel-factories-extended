@@ -65,6 +65,8 @@ $post = PostFactory::new()->ofAuthor($user)->create();
 $comments = CommentFactory::times(3)->ofCommentable($post)->ofUser($user)->create();
 ```
 
+If you use `soyhuce/next-ide-helper` (version ^0.2.4), we provide for you a factory extension to automatically add dynamic of methods. You just have to add `Soyhuce\LaravelFactoriesExtended\DynamicOfResolver::class` in your `next-ide-helper.factories.extensions` config.  
+
 # Contributing
 
 You are welcome to contribute to this project ! Please see [CONTRIBUTING.md](CONTRIBUTING.md).

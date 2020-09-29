@@ -7,3 +7,4 @@ All notable changes to `soyhuce/laravel-factories-extended` will be documented i
 ### Added
 
 - method `of` and dynamic `of` on Factory
+- `DynamicOfResolver` extension for `soyhuce/next-ide-helper`
