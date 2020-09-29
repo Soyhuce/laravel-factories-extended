@@ -11,7 +11,7 @@ This package provides extensions for Laravel 8 Model Factories
 You should install this package using composer :
 
 ```shell script
-composer require --dev soyhuce/laravel-factories-extended
+composer require soyhuce/laravel-factories-extended
 ``` 
 
 You're done !
