@@ -6,7 +6,7 @@ All notable changes to `soyhuce/laravel-factories-extended` will be documented i
 
 ### Added
 
--Support PHP 8
+-Nothing
 
 ### Changed
 
@@ -27,6 +27,12 @@ All notable changes to `soyhuce/laravel-factories-extended` will be documented i
 ### Security
 
 -Nothing
+
+## [0.1.1] - 2020-11-10
+
+### Added
+
+-Support PHP 8
 
 ## [0.1.0] - 2020-09-29
 
