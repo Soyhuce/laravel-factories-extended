@@ -5,21 +5,27 @@ All notable changes to `soyhuce/laravel-factories-extended` will be documented i
 ## [Next release] - YYYY-MM-DD
 
 ### Added
--Nothing
+
+-Support PHP 8
 
 ### Changed
+
 -Nothing
 
 ### Deprecated
+
 -Nothing
 
 ### Removed
+
 -Nothing
 
 ### Fixed
+
 -Nothing
 
 ### Security
+
 -Nothing
 
 ## [0.1.0] - 2020-09-29
